@@ -30,10 +30,8 @@
     <ClCompile Include="GLLibrary\CMatrix.cpp" />
     <ClCompile Include="GLLibrary\CModel.cpp" />
     <ClCompile Include="GLLibrary\CModelA3M.cpp" />
-    <ClCompile Include="GLLibrary\CModelFBX.cpp" />
     <ClCompile Include="GLLibrary\CModelField.cpp" />
     <ClCompile Include="GLLibrary\CModelObj.cpp" />
-    <ClCompile Include="GLLibrary\CModelX.cpp" />
     <ClCompile Include="GLLibrary\CNetWork.cpp" />
     <ClCompile Include="GLLibrary\CRect.cpp" />
     <ClCompile Include="GLLibrary\CResource.cpp" />
@@ -41,10 +39,9 @@
     <ClCompile Include="GLLibrary\CShadow.cpp" />
     <ClCompile Include="GLLibrary\CSound.cpp" />
     <ClCompile Include="GLLibrary\CTexture.cpp" />
+    <ClCompile Include="GLLibrary\CTextureFrame.cpp" />
     <ClCompile Include="GLLibrary\CVector.cpp" />
-    <ClCompile Include="GLLibrary\CXModelLoader.cpp" />
     <ClCompile Include="GLLibrary\GL.cpp" />
-    <ClCompile Include="GLLibrary\pugixml.cpp" />
     <ClCompile Include="GLLibrary\Utility.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -60,10 +57,8 @@
     <ClInclude Include="GLLibrary\CMatrix.h" />
     <ClInclude Include="GLLibrary\CModel.h" />
     <ClInclude Include="GLLibrary\CModelA3M.h" />
-    <ClInclude Include="GLLibrary\CModelFBX.h" />
     <ClInclude Include="GLLibrary\CModelField.h" />
     <ClInclude Include="GLLibrary\CModelObj.h" />
-    <ClInclude Include="GLLibrary\CModelX.h" />
     <ClInclude Include="GLLibrary\CNetWork.h" />
     <ClInclude Include="GLLibrary\CRect.h" />
     <ClInclude Include="GLLibrary\CResource.h" />
@@ -71,11 +66,9 @@
     <ClInclude Include="GLLibrary\CShadow.h" />
     <ClInclude Include="GLLibrary\CSound.h" />
     <ClInclude Include="GLLibrary\CTexture.h" />
+    <ClInclude Include="GLLibrary\CTextureFrame.h" />
     <ClInclude Include="GLLibrary\CVector.h" />
-    <ClInclude Include="GLLibrary\CXModelLoader.h" />
     <ClInclude Include="GLLibrary\GL.h" />
-    <ClInclude Include="GLLibrary\pugiconfig.hpp" />
-    <ClInclude Include="GLLibrary\pugixml.hpp" />
     <ClInclude Include="GLLibrary\Utility.h" />
     <ClInclude Include="GLLibrary\Vertex.h" />
   </ItemGroup>
@@ -174,6 +167,7 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <AdditionalIncludeDirectories>../include</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -217,6 +211,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
       <AdditionalIncludeDirectories>../include</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>

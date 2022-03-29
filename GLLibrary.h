@@ -1,6 +1,6 @@
 #pragma once
 
-#define USE_ATHOR_MODEL
+//#define USE_ATHOR_MODEL
 
 #ifndef _USE_MATH_DEFINES
 #define _USE_MATH_DEFINES
@@ -42,4 +42,5 @@
 #include "GLLibrary/CResource.h"
 #include "GLLibrary/CNetWork.h"
 #include "GLLibrary/CLoadThread.h"
+#include "GLLibrary/CTextureFrame.h"
 

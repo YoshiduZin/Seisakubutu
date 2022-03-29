@@ -40,16 +40,10 @@
     <ClCompile Include="GLLibrary\CModelA3M.cpp">
       <Filter>GLLibrary</Filter>
     </ClCompile>
-    <ClCompile Include="GLLibrary\CModelFBX.cpp">
-      <Filter>GLLibrary</Filter>
-    </ClCompile>
     <ClCompile Include="GLLibrary\CModelField.cpp">
       <Filter>GLLibrary</Filter>
     </ClCompile>
     <ClCompile Include="GLLibrary\CModelObj.cpp">
-      <Filter>GLLibrary</Filter>
-    </ClCompile>
-    <ClCompile Include="GLLibrary\CModelX.cpp">
       <Filter>GLLibrary</Filter>
     </ClCompile>
     <ClCompile Include="GLLibrary\CNetWork.cpp">
@@ -76,16 +70,13 @@
     <ClCompile Include="GLLibrary\GL.cpp">
       <Filter>GLLibrary</Filter>
     </ClCompile>
-    <ClCompile Include="GLLibrary\pugixml.cpp">
-      <Filter>GLLibrary</Filter>
-    </ClCompile>
     <ClCompile Include="GLLibrary\Utility.cpp">
       <Filter>GLLibrary</Filter>
     </ClCompile>
-    <ClCompile Include="GLLibrary\CXModelLoader.cpp">
+    <ClCompile Include="GLLibrary\CRect.cpp">
       <Filter>GLLibrary</Filter>
     </ClCompile>
-    <ClCompile Include="GLLibrary\CRect.cpp">
+    <ClCompile Include="GLLibrary\CTextureFrame.cpp">
       <Filter>GLLibrary</Filter>
     </ClCompile>
   </ItemGroup>
@@ -123,16 +114,10 @@
     <ClInclude Include="GLLibrary\CModelA3M.h">
       <Filter>GLLibrary</Filter>
     </ClInclude>
-    <ClInclude Include="GLLibrary\CModelFBX.h">
-      <Filter>GLLibrary</Filter>
-    </ClInclude>
     <ClInclude Include="GLLibrary\CModelField.h">
       <Filter>GLLibrary</Filter>
     </ClInclude>
     <ClInclude Include="GLLibrary\CModelObj.h">
-      <Filter>GLLibrary</Filter>
-    </ClInclude>
-    <ClInclude Include="GLLibrary\CModelX.h">
       <Filter>GLLibrary</Filter>
     </ClInclude>
     <ClInclude Include="GLLibrary\CNetWork.h">
@@ -162,12 +147,6 @@
     <ClInclude Include="GLLibrary\GL.h">
       <Filter>GLLibrary</Filter>
     </ClInclude>
-    <ClInclude Include="GLLibrary\pugiconfig.hpp">
-      <Filter>GLLibrary</Filter>
-    </ClInclude>
-    <ClInclude Include="GLLibrary\pugixml.hpp">
-      <Filter>GLLibrary</Filter>
-    </ClInclude>
     <ClInclude Include="GLLibrary\Utility.h">
       <Filter>GLLibrary</Filter>
     </ClInclude>
@@ -175,7 +154,7 @@
       <Filter>GLLibrary</Filter>
     </ClInclude>
     <ClInclude Include="GLLibrary.h" />
-    <ClInclude Include="GLLibrary\CXModelLoader.h">
+    <ClInclude Include="GLLibrary\CTextureFrame.h">
       <Filter>GLLibrary</Filter>
     </ClInclude>
   </ItemGroup>
