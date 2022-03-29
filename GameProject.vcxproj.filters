@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="GID.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Base\Base.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Player.h">
+      <Filter>Main\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Enemy.h">
+      <Filter>Main\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\PlayerWepon.h">
+      <Filter>Main\Player\Wepon</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\PlayerAttack.h">
+      <Filter>Main\Player\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Camera.h">
+      <Filter>Main\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\EnemyKill.h">
+      <Filter>Main\Enemy\UI\EnemyKill</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\AmmoBox.h">
+      <Filter>Main\Object\AmmoBox</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\RemainingBullets.h">
+      <Filter>Main\Player\Wepon\UI\ReBullets</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\BulletNumber.h">
+      <Filter>Main\Player\Wepon\UI\BulletNumber</Filter>
+    </ClInclude>
+    <ClInclude Include="Screen\GameClear.h">
+      <Filter>Main\GameScreen\GameClear</Filter>
+    </ClInclude>
+    <ClInclude Include="Screen\GameOver.h">
+      <Filter>Main\GameScreen\GameOver</Filter>
+    </ClInclude>
+    <ClInclude Include="Screen\Game.h">
+      <Filter>Main\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\TutorialField.h">
+      <Filter>Main\Map\TutorialField</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\BossEnemy.h">
+      <Filter>Main\BossEnemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Door.h">
+      <Filter>Main\Object\Door</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Key.h">
+      <Filter>Main\Object\Key</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Zombie.h">
+      <Filter>Main\Enemy\Zombie</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\UI.h">
+      <Filter>Main\Player\Wepon\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Icon.h">
+      <Filter>Main\Player\Wepon\UI\Icon</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Shikiri.h">
+      <Filter>Main\Player\Wepon\UI\Shikiri</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\HitCollision.h">
+      <Filter>Main\Map\HitCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="Screen\Title.h">
+      <Filter>Main\GameScreen\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Arrow.h">
+      <Filter>Main\Object\Arrow</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Sousa.h">
+      <Filter>Main\Player\Sousa</Filter>
+    </ClInclude>
+    <ClInclude Include="Screen\Pause.h">
+      <Filter>Main\GameScreen\Pause</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\SaveSpot.h">
+      <Filter>Main\Object\SaveSpot</Filter>
+    </ClInclude>
+    <ClInclude Include="Data\SaveData\Save.h">
+      <Filter>Data\SaveData</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Base\Base.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Player.cpp">
+      <Filter>Main\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Enemy.cpp">
+      <Filter>Main\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\PlayerWepon.cpp">
+      <Filter>Main\Player\Wepon</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\PlayerAttack.cpp">
+      <Filter>Main\Player\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Camera.cpp">
+      <Filter>Main\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\EnemyKill.cpp">
+      <Filter>Main\Enemy\UI\EnemyKill</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\AmmoBox.cpp">
+      <Filter>Main\Object\AmmoBox</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\RemainingBullets.cpp">
+      <Filter>Main\Player\Wepon\UI\ReBullets</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\BulletNumber.cpp">
+      <Filter>Main\Player\Wepon\UI\BulletNumber</Filter>
+    </ClCompile>
+    <ClCompile Include="Screen\GameClear.cpp">
+      <Filter>Main\GameScreen\GameClear</Filter>
+    </ClCompile>
+    <ClCompile Include="Screen\GameOver.cpp">
+      <Filter>Main\GameScreen\GameOver</Filter>
+    </ClCompile>
+    <ClCompile Include="Screen\Game.cpp">
+      <Filter>Main\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\TutorialField.cpp">
+      <Filter>Main\Map\TutorialField</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\BossEnemy.cpp">
+      <Filter>Main\BossEnemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Door.cpp">
+      <Filter>Main\Object\Door</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Key.cpp">
+      <Filter>Main\Object\Key</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Zombie.cpp">
+      <Filter>Main\Enemy\Zombie</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\UI.cpp">
+      <Filter>Main\Player\Wepon\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Icon.cpp">
+      <Filter>Main\Player\Wepon\UI\Icon</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Shikiri.cpp">
+      <Filter>Main\Player\Wepon\UI\Shikiri</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\HitCollision.cpp">
+      <Filter>Main\Map\HitCollision</Filter>
+    </ClCompile>
+    <ClCompile Include="Screen\Title.cpp">
+      <Filter>Main\GameScreen\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Arrow.cpp">
+      <Filter>Main\Object\Arrow</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Sousa.cpp">
+      <Filter>Main\Player\Sousa</Filter>
+    </ClCompile>
+    <ClCompile Include="Screen\Pause.cpp">
+      <Filter>Main\GameScreen\Pause</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\SaveSpot.cpp">
+      <Filter>Main\Object\SaveSpot</Filter>
+    </ClCompile>
+    <ClCompile Include="Data\SaveData\Save.cpp">
+      <Filter>Data\SaveData</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Base">
+      <UniqueIdentifier>{4e87fd46-6ff2-4d4e-93b9-f02cf4ed92a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{10c42952-682a-412d-8e7a-2992e24ed8d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Player">
+      <UniqueIdentifier>{bd4687ee-becd-455e-8eff-074a2abc831d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Player\Wepon">
+      <UniqueIdentifier>{8445ea1e-fa20-42b6-88d3-bb63228722fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Player\Wepon\UI">
+      <UniqueIdentifier>{e446c48b-f450-46fc-b09b-6ef9b019f530}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Player\Wepon\UI\BulletNumber">
+      <UniqueIdentifier>{60e08b15-ec84-452f-9343-7a2c5c231d39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Player\Wepon\UI\ReBullets">
+      <UniqueIdentifier>{c6f920f8-2446-4239-accc-c17520a39658}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Player\Attack">
+      <UniqueIdentifier>{a66f2731-11c1-4554-9bdf-3b937a96fb5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Camera">
+      <UniqueIdentifier>{d4f079eb-61f4-45d7-bfcf-e2bff6139f7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Map">
+      <UniqueIdentifier>{a079dd5f-fcdf-46d5-bc68-024609ebd928}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\GameScreen">
+      <UniqueIdentifier>{8b00951e-8456-487c-a573-35a7d410d2e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\GameScreen\GameClear">
+      <UniqueIdentifier>{9c22bcdd-256d-4540-aec2-7ccba98d9f2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\GameScreen\GameOver">
+      <UniqueIdentifier>{1a35e1a8-b1d1-47d0-91bc-bf6b4c8ec3a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\GameScreen\Title">
+      <UniqueIdentifier>{38d88927-55f2-4550-b19b-7dd2cd7dc1f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Object">
+      <UniqueIdentifier>{c0fc230e-ced0-4874-b5fa-548c82f44cb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Map\TutorialField">
+      <UniqueIdentifier>{4a3e15de-5c30-45c3-b176-b47c39223fe5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\BossEnemy">
+      <UniqueIdentifier>{5eea6efc-9930-4b8e-a689-0e264f847f2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Object\Door">
+      <UniqueIdentifier>{bfcca70c-06bc-4793-a035-ee70ca6916e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Object\Key">
+      <UniqueIdentifier>{77a30e5a-6362-4761-a45e-4f9e8d201ac6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Object\AmmoBox">
+      <UniqueIdentifier>{0f367fea-0ae2-4752-84af-58b8e0761c71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Game">
+      <UniqueIdentifier>{dd7873ac-f270-46ac-a4fc-cdb18bbb2f85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Player\Wepon\UI\Icon">
+      <UniqueIdentifier>{17b2ae22-e84b-4ca5-a74e-edd311c3a8d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Player\Wepon\UI\Shikiri">
+      <UniqueIdentifier>{11454417-fb4b-47d4-be5f-79a63aba6323}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Map\HitCollision">
+      <UniqueIdentifier>{62c8c768-82f9-4a27-aa85-d435cc49da6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Object\Arrow">
+      <UniqueIdentifier>{b13b0fcd-0bfb-4fc8-8cd5-41b5ee56c857}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Player\Sousa">
+      <UniqueIdentifier>{0c60acb3-3cd3-4cee-bd0b-4c31568c3d2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Enemy">
+      <UniqueIdentifier>{16cebd7d-e68e-496a-8ab3-ffd062e58260}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Enemy\UI">
+      <UniqueIdentifier>{4578fa3e-69a5-49fc-b33a-36fe4287dfb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Enemy\UI\EnemyKill">
+      <UniqueIdentifier>{dd903021-81d4-4614-aaf4-449750a4de3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Enemy\Zombie">
+      <UniqueIdentifier>{9aa7d6d2-05e1-47df-89a3-b5fc46c90048}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\GameScreen\Pause">
+      <UniqueIdentifier>{5fd9f5ec-7a8e-43c0-8e7d-df5310fca601}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Object\SaveSpot">
+      <UniqueIdentifier>{84f4bd23-d405-49da-88b9-2a077dc7d732}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{d931188f-2154-46c8-a978-dc0e5444321a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\SaveData">
+      <UniqueIdentifier>{da5a66a0-641d-40cf-89c4-99e3956185e5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
